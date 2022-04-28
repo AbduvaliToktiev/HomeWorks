@@ -47,7 +47,7 @@ class Deal {
         // часть 2 - ввод с консоли
         for (; ; ) {
             Scanner sc = new Scanner(System.in);
-            System.out.println("Введите количество игроков: ");
+            System.out.print("Введите количество игроков: ");
 
             if (sc.hasNextInt()) {
 
