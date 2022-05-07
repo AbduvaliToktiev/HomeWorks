@@ -5,12 +5,12 @@ public class HomeWork2_1 {
     }
 }
 
-class Student {
+class Student1 {
     int well;
     String university;
     String direction;
     public static void main(String[] args) {
-    Student student = new Student();
+    Student1 student = new Student1();
     student.well = 3;
     student.direction = "Engineer";
     student.university = "Politeh";
