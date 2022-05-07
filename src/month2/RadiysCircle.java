@@ -11,6 +11,6 @@ public class RadiysCircle extends Circle {
         System.out.println("Число для увеличения длины и площади круга: " + circle.getIncrease());
         System.out.println("Длина круга после увеличения: " + circle.getPerimeter2());
         System.out.println("Площадь круга после увеличения: " + circle.getArea2());
-        hundredCyrcle(8);
+        hundredCyrcle(8,5);
     }
 }

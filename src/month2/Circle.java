@@ -80,13 +80,13 @@ public class Circle {
     public void setIncrease(int increase) {
         this.increase = increase;
     }
-    public static void hundredCyrcle(double radius) {
-        for (int i = 0; i < radius; i++) {
+    public static void hundredCyrcle(double radius, int increase) {
+        for (int i = 0; i < radius * increase; i++) {
             if (i <= 100) {
                 radius++;
             }
-            if (radius % 3 == 0) {
-                System.out.print(radius + " ");
+            if ((radius * increase) % 3 == 0) {
+                System.out.print((radius * increase) + " ");
             }
         }
     }
