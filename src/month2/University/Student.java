@@ -1,6 +1,6 @@
-package month2;
+package month2.University;
 
-public class Student extends Well{
+public class Student extends Well {
     private String dateBirth;
     private String surname;
     private String name;

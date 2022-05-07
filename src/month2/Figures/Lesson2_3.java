@@ -1,4 +1,4 @@
-package month2;
+package month2.Figures;
 
 public class Lesson2_3 {
 }

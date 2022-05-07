@@ -1,6 +1,6 @@
-package month2;
+package month2.Animal;
 
-public class Pets2 extends Pets{
+public class Pets2 extends Pets {
     public static void main(String[] args) {
         Pets parrot = new Pets("parrot", "flies", "ara", 50);
         System.out.println("Животное: " + parrot.getAnimal() + " (попугай)");

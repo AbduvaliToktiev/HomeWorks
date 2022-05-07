@@ -1,6 +1,6 @@
-package month2;
+package month2.University;
 
-public class University extends Group{
+public class University extends Group {
     public static void main(String[] args) {
         Well well = new Well("Foreign Language", "10.03.2022", 1, "Artem Ivanov Sergeevich");
         System.out.println("Наименование: " + well.getNameWell() + " (Иностранный язык)");

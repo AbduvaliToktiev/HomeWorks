@@ -1,4 +1,4 @@
-package month2;
+package month2.Animal;
 
 public class Animal {
     String view;

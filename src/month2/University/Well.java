@@ -1,4 +1,4 @@
-package month2;
+package month2.University;
 
 public class Well {
     private String nameWell;

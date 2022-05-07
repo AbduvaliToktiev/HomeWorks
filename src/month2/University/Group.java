@@ -1,6 +1,6 @@
-package month2;
+package month2.University;
 
-public class Group extends Student{
+public class Group extends Student {
     String startDate;
     String duration;
 

@@ -1,4 +1,4 @@
-package month2;
+package month2.Animal;
 
 public class HomeWork2_1 {
     public static void main(String[] args) {
