@@ -1,6 +1,5 @@
 package month2.Lesson17;
 
-import java.util.Arrays;
 
 public class Laptop2 {
     public static void main(String[] args) {
