@@ -1,6 +1,6 @@
 package month2.HomeWork2_5_6;
 
-public class Lexus {
+public class Lexus extends LexusCar{
     public static void main(String[] args) {
         Brand brand = new Brand();
         brand.setName("Lexus");
@@ -36,7 +36,6 @@ public class Lexus {
         lexusCar.setRxAge(1998);
         lexusCar.setLexusCar(lexusCar);
 
-
-
+        System.out.println(brand + "\n" + factoryCar + " \n" + lexusCar);
     }
 }

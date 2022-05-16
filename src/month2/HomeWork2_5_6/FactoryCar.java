@@ -57,4 +57,12 @@ public class FactoryCar extends Brand{
         this.model3 = model3;
     }
 
+    @Override
+    public String toString() {
+        return "Количество в мире: " + amount + " автомобилей \n" +
+                "Количество стран: " + country + " \n" +
+                "Класс автомобиля: " + model1 + " \n" +
+                "Класс автомобиля: " + model2 + " \n" +
+                "Класс автомобиля: " + model3;
+    }
 }

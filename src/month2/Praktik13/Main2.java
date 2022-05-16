@@ -5,9 +5,10 @@ import java.util.Arrays;
 public class Main2 {
     public static void main(String[] args) {
     Student[] students = {new Student("1"), new Student("2"), new Student("3")};
-    Group group = new Group();
+    Group group = new Group(students);
 
-        System.out.println();
+        System.out.println(Arrays.toString(students));
+        System.out.println(group);
 
         Student [] newStudents = new Student[group.getStudents().length + 2];
 
@@ -21,6 +22,7 @@ public class Main2 {
         group.setStudents(newStudents);
 
         System.out.println(Arrays.toString(students));
-        System.out.println();
+        System.out.println(Arrays.toString(newStudents));
+        System.out.println(group);
     }
 }

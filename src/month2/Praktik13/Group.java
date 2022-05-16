@@ -5,6 +5,10 @@ import java.util.Arrays;
 public class Group {
     Student[] students;
 
+public Group(Student[] students) {
+    this.students = students;
+}
+
     public Student[] getStudents() {
         return students;
     }
@@ -15,7 +19,9 @@ public class Group {
 
     @Override
     public String toString() {
-        return "Group { " +
-                "students = " + Arrays.toString(students) + '}';
+        return "Group{" +
+                "students=" + Arrays.toString(students) +
+                '}';
     }
 }
+

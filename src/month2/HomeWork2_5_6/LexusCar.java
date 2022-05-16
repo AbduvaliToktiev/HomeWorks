@@ -39,4 +39,11 @@ public class LexusCar extends FactoryCar {
     public void setRxAge(int rxAge) {
         this.rxAge = rxAge;
     }
+
+    @Override
+    public String toString() {
+        return "Год выпуска автомобиля класса Lx: " + lxAge + " \n" +
+                "Год выпуска автомобиля класса Gx: " + gxAge + " \n" +
+                "Год выпуска автомобиля класса Rx: " + rxAge;
+    }
 }

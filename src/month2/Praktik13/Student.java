@@ -3,7 +3,8 @@ package month2.Praktik13;
 public class Student {
     private String name;
 
-    public Student(String newS) {
+    public Student(String name) {
+        this.name = name;
     }
 
     public String getName() {

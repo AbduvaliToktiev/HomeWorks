@@ -50,6 +50,9 @@ public class Brand {
 
     @Override
     public String toString() {
-        return "Название компании = " + name + " \n Год образования = " + age + " \n Создатель компании = " + creator + " \n Название  ";
+        return "Название компании: " + name +
+                " \nГод образования: " + age +
+                " \nСоздатель компании: " + creator +
+                " \nПервый автомобиль компании: " + firstCar;
     }
 }
