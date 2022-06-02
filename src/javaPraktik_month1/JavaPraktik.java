@@ -1,4 +1,4 @@
-package JavaPraktik;
+package javaPraktik_month1;
 
 import java.util.Scanner;
 import java.util.Arrays;
@@ -45,7 +45,7 @@ class Deal {
                 "2", "3", "4", "5", "6", "7", "8", "9", "10",
                 "Валет", "Дама", "Король", "Туз"
         };
-        int n = suits.length * rank.length; // количество карт
+        int  n = suits.length * rank.length; // количество карт
         // часть 2 - ввод с консоли
         for (; ; ) {
             Scanner sc = new Scanner(System.in);

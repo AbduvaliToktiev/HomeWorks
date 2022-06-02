@@ -1,4 +1,4 @@
-package JavaPraktik;
+package javaPraktik_month1;
 
 import java.util.Scanner;
 
