@@ -1,12 +1,12 @@
 package month2.lesson22;
 
-public final class Rectangle extends Figure{
+public final class Rectangle extends Figure {
     private double height;
     private double width;
     public static int count;
 
     public Rectangle() {
-
+        count++;
     }
 
     public Rectangle(double height, double width) {
@@ -39,9 +39,9 @@ public final class Rectangle extends Figure{
 
     @Override
     public String speak() {
-        if (width == height){
-        return "Это Квадрат!";
-        }else {
+        if (width == height) {
+            return "Это Квадрат!";
+        } else {
             return "Это Прямоугольник!";
         }
     }

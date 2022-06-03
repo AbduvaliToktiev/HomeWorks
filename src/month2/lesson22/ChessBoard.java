@@ -1,10 +1,19 @@
 package month2.lesson22;
 
 public class ChessBoard {
-     final int chess = 12;
-     final int[] mass = new int[chess];
-    final Rectangle[][] mass2 = new Rectangle[8][8];
-    void fill(int x, int y, Rectangle rectangle) {
+
+    private final Circle[] circles = new Circle[12];
+    private final Rectangle[][] mass2 = new Rectangle[8][8];
+
+    public Circle[] getCircles() {
+        return circles;
+    }
+
+    public Rectangle[][] getMass2() {
+        return mass2;
+    }
+
+   final void fill(int x, int y, Rectangle rectangle) {
         mass2[x][y] = rectangle;
     }
 }

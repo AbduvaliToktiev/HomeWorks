@@ -1,22 +1,22 @@
 package month2.lesson22;
 
 public class LocationOfFigure {
-    private String X;
-    private String Y;
+    private int X;
+    private int Y;
 
-    public String getX() {
+    public int getX() {
         return X;
     }
 
-    public void setX(String x) {
+    public void setX(int x) {
         X = x;
     }
 
-    public String getY() {
+    public int getY() {
         return Y;
     }
 
-    public void setY(String y) {
+    public void setY(int y) {
         Y = y;
     }
 }
