@@ -1,9 +1,14 @@
 package month3.lesson27;
 
-public class Duck {
+public class Duck implements Movable {
+    @Override
+    public String swiming() {
+        return "Плаваю когда хочу";
+    }
 
-    public String voice(String voice) {
-         voice = "Kra kra";
-        return voice;
+    @Override
+    public String voice() {
+        return "Кря кря кря";
     }
 }
+
