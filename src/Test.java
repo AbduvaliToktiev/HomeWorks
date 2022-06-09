@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Test {
     private final void flipper() {
         System.out.println("Clidder");
@@ -166,5 +168,22 @@ class Journal implements Printable {
     }
     public void print() {
         System.out.println(name);
+    }
+}
+
+class Recursion {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        method(sc);
+    }
+
+    private static void method(Scanner sc) {
+        String s = sc.nextLine();
+        System.out.println(s);
+        if (s.equals("exit")) {
+            System.out.println("exit");
+        }else {
+            method(sc);
+        }
     }
 }
