@@ -120,7 +120,7 @@ class HowMany {
                 }
             }
         }
-        System.out.println("Вы ввели " + count + "слов");
+        System.out.println("Вы ввели " + count + " слов");
     }
 }
 

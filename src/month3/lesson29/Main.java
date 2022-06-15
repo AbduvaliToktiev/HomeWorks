@@ -12,7 +12,8 @@ public class Main {
         for (Cat c : cats) {
             try {
                 System.out.println(c.getName());
-        cats[2] = null;
+        cats[1] = null;
+        cats[4] = cat1;
             } catch (NullPointerException e) {
                 System.out.println(e.getMessage() + " I am here Exception");
             } catch (ArrayIndexOutOfBoundsException ex) {
