@@ -13,6 +13,5 @@ public class Main {
         ParentsRulenable parents = new Parents();
         System.out.println(((Parents)parents).getReady());
         System.out.println(((Parents)parents).getDressed());
-
     }
 }
